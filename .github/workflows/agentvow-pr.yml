@@ -2,6 +2,7 @@ name: agentvow
 on: pull_request
 permissions:
   contents: read
+  id-token: write
 jobs:
   gate:
     uses: NavikkumarModi/Agentvow/.github/workflows/gate.yml@1cb3cda3c986e6f69f799589d9fad9aefb3a3867
