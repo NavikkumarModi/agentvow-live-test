@@ -1,0 +1,12 @@
+name: agentvow
+on: pull_request
+permissions:
+  contents: read
+  id-token: write
+jobs:
+  gate:
+    uses: NavikkumarModi/agentvow-live-test/.github/workflows/gate.yml@v1
+    with:
+      service-url: https://particular-regard-interview-favourite.trycloudflare.com
+      audience: agentvow-control-plane
+      fail-on: block
