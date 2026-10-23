@@ -10,3 +10,4 @@ jobs:
       service-url: https://particular-regard-interview-favourite.trycloudflare.com
       audience: agentvow-control-plane
       fail-on: block
+      policy-path: agentvow-policy.json
