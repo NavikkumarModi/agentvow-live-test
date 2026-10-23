@@ -7,7 +7,7 @@ jobs:
   gate:
     uses: NavikkumarModi/agentvow-live-test/.github/workflows/gate.yml@v1
     with:
-      service-url: https://particular-regard-interview-favourite.trycloudflare.com
+      service-url: https://example.com
       audience: agentvow-control-plane
       fail-on: block
       policy-path: agentvow-policy.json
