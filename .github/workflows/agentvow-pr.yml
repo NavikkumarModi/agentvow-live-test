@@ -2,7 +2,6 @@ name: agentvow
 on: pull_request
 permissions:
   contents: read
-  id-token: write
 jobs:
   gate:
     uses: NavikkumarModi/agentvow-live-test/.github/workflows/gate.yml@v1
