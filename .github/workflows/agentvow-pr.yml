@@ -5,9 +5,9 @@ permissions:
   id-token: write
 jobs:
   gate:
-    uses: NavikkumarModi/agentvow-live-test/.github/workflows/gate.yml@v1
+    uses: NavikkumarModi/agentvow-live-test/.github/workflows/gate-service.yml@5bda1ed5a907a16955d9d5f7a8e5f787b09749d4
     with:
-      service-url: https://particular-regard-interview-favourite.trycloudflare.com
+      service-url: https://everywhere-cardiac-reef-palmer.trycloudflare.com
       audience: agentvow-control-plane
-      fail-on: block
       policy-path: agentvow-policy.json
+      fail-on: block
