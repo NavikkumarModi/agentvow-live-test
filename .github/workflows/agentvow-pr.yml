@@ -5,9 +5,9 @@ permissions:
   id-token: write
 jobs:
   gate:
-    uses: NavikkumarModi/agentvow-live-test/.github/workflows/gate.yml@v1
+    uses: NavikkumarModi/agentvow-live-test/.github/workflows/gate-service.yml@ec837684e6dfe21604b5e23869d1acca477c9fe9
     with:
-      service-url: https://particular-regard-interview-favourite.trycloudflare.com
+      service-url: https://tone-remained-financing-lease.trycloudflare.com
       audience: agentvow-control-plane
-      fail-on: block
       policy-path: agentvow-policy.json
+      fail-on: block
