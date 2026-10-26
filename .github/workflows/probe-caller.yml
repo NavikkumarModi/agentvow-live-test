@@ -5,4 +5,4 @@ permissions:
   id-token: write
 jobs:
   p:
-    uses: NavikkumarModi/agentvow-live-test/.github/workflows/probe.yml@REPLACE
+    uses: NavikkumarModi/agentvow-live-test/.github/workflows/probe.yml@a317d204b200390732f55a48859e7a69f5c35203
